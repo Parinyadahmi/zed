@@ -70,29 +70,58 @@
 
     </div>
 
+    <div class="bg-smoke">
+      <div class="container">
+
+        <!-- project -->
+        <div class="select">
+          <h1>Explore our lasted projects</h1>
+          <div class="mb-5">But I must explain to you how all this mistaken idea
+            of denouncing pleasure and praising pain was born.
+          </div>
+
+          <div class="row">
+            <div class="col-12 col-sm-6 mb-5">
+
+
+              <div class="project-1">
+                <div class="row align-items-end project-card">
+
+
+                  <div class="col">
+                    55
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div class="col-12 col-sm-6 mb-5">
+
+
+              <div class="project-2">
+                <div class=" row align-items-end project-card">
+
+
+                  <div class="col">
+                    55
+                  </div>
+                </div>
+
+              </div>
+
+
+            </div>
+          </div>
+          <div class="text-center">
+            <button type="button" class="btn btn-dark">VIEW ALL PROJECTS</button>
+          </div>
+        </div>
+        <!-- end project -->
+      </div>
+    </div>
+
 
     <div class="container">
-
-      <!-- project -->
-      <div class="select">
-        <h1>Explore our lasted project</h1>
-        <div class="mb-5">But I must explain to you how all this mistaken idea
-          of denouncing pleasure and praising pain was born.
-        </div>
-
-        <div class="row">
-          <div class="col-12 col-sm-6">
-            <img class="img-fluid" src="../assets/image/service.png">
-          </div>
-          <div class="col-12 col-sm-6">
-            <img class="img-fluid" src="../assets/image/service.png">
-          </div>
-        </div>
-        <button type="button" class="btn btn-dark">VIEW ALL PROJECTS</button>
-      </div>
-      <!-- end project -->
-
-
       <!-- about -->
       <div class="select">
         <div class="row">
@@ -306,22 +335,36 @@
 </template>
 
 <script>
-  import Logo from '~/components/Logo.vue'
 
   export default {
-    components: {
-      Logo
-    }
+    components: {}
   }
 </script>
 
 <style>
-
   .hero {
     background-image: url("../assets/image/hero_bg.png");
     background-position: center;
     background-size: cover;
     min-height: calc(100vh);
+  }
+
+
+  .project-1 {
+    background-image: url("../assets/image/project_1.png");
+    background-position: center;
+    background-size: cover;
+  }
+
+  .project-2 {
+    background-image: url("../assets/image/project_2.png");
+    background-position: center;
+    background-size: cover;
+  }
+
+  .project-card{
+    padding: 15px;
+    height: 350px;
   }
 
 </style>
