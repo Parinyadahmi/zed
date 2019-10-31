@@ -52,6 +52,9 @@ module.exports = {
   /*
   ** Build configuration
   */
+  router: {
+    base: process.env.NODE_ENV === 'dev' ? '/' : '/zed/',
+  },
   build: {
     /*
     ** You can extend webpack config here
