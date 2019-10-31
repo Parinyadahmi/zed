@@ -1,8 +1,84 @@
+.hero {
+    color: white;
+}
+
+
+.nav-zed {
+    padding: 15px;
+}
+
+.nav-zed a {
+    color: white;
+    text-transform: uppercase;
+    min-width: 80px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.logo {
+    height: 35px;
+}
+
 .select {
     padding-top: 50px;
     padding-bottom: 50px;
 }
 
-.bg-smoke{
+.bg-smoke {
     background-color: #f9f9f9;
+}
+
+.title {
+    color: #6d22eb;
+}
+
+.hero {
+    background-image: url("../../assets/image/hero.png");
+    background-position: center;
+    background-size: cover;
+    min-height: calc(100vh);
+}
+
+
+.project-1 {
+    background-image: url("../../assets/image/activity-bg-1.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.project-2 {
+    background-image: url("../../assets/image/activity-bg-2.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.project-card {
+    padding: 15px;
+    height: 350px;
+    color: white;
+}
+
+.footer {
+    color: white;
+    background: #6d22eb url("../../assets/footer-watermark.svg") no-repeat left;
+}
+
+.btn {
+    min-width: 180px;
+}
+
+.btn-purple {
+    background-color: #6d22eb;
+    border-color: #6d22eb;
+    color: white;
+    font-weight: 600;
+    padding: 15px;
+}
+
+.btn-white {
+    background-color: white;
+    color: #6d22eb;
+    font-weight: 600;
+    padding: 15px;
 }

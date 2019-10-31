@@ -3,12 +3,17 @@
   <div>
 
 
-    <div class="hero">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="hero" id="home">
+      <nav class="navbar navbar-expand-lg navbar-transparent nav-zed">
 
         <div class="container">
 
-          <a class="navbar-brand" href="#"> LOGO </a>
+          <a class="navbar-brand" href="#">
+
+
+            <img class="img-fluid logo" src="../assets/logo.svg">
+
+          </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                   aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -18,23 +23,23 @@
             <ul class="navbar-nav ml-auto">
 
               <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#" v-scroll-to="'#home'">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Service</a>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link" href="#">Project</a>
+                <a class="nav-link" href="#" v-scroll-to="'#service'">Service</a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="#">Team</a>
+                <a class="nav-link" href="#" v-scroll-to="'#project'">Project</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#" v-scroll-to="'#team'">Team</a>
               </li>
 
 
               <li class="nav-item">
-                <a class="nav-link" href="#">Expertise</a>
+                <a class="nav-link" href="#" v-scroll-to="'#expertise'">Expertise</a>
               </li>
 
               <li class="nav-item">
@@ -61,7 +66,7 @@
               </div>
             </div>
 
-            <button type="button" class="btn btn-dark">SEE OUR SERVICE</button>
+            <button type="button" class="btn btn-purple">SEE OUR SERVICE</button>
 
           </div>
         </div>
@@ -74,22 +79,19 @@
       <div class="container">
 
         <!-- project -->
-        <div class="select">
-          <h1>Explore our lasted projects</h1>
+        <div class="select" id="project">
+          <h1 class="title">Explore our lasted projects</h1>
           <div class="mb-5">But I must explain to you how all this mistaken idea
             of denouncing pleasure and praising pain was born.
           </div>
 
           <div class="row">
             <div class="col-12 col-sm-6 mb-5">
-
-
-              <div class="project-1">
+              <div class=" project-1">
                 <div class="row align-items-end project-card">
-
-
                   <div class="col">
-                    55
+                    <small>A Ministry of Finance * Latin America & the Caribbean</small>
+                    <h3>Evaluation of National Customs Department Modernization Project</h3>
                   </div>
                 </div>
               </div>
@@ -98,12 +100,11 @@
             <div class="col-12 col-sm-6 mb-5">
 
 
-              <div class="project-2">
+              <div class=" project-2">
                 <div class=" row align-items-end project-card">
-
-
                   <div class="col">
-                    55
+                    <small>National Housing Organization * Latin America & the Caribbean</small>
+                    <h3>Institutional Strengthening of a National Housing Organization</h3>
                   </div>
                 </div>
 
@@ -113,7 +114,7 @@
             </div>
           </div>
           <div class="text-center">
-            <button type="button" class="btn btn-dark">VIEW ALL PROJECTS</button>
+            <button type="button" class="btn btn-purple">VIEW ALL PROJECTS</button>
           </div>
         </div>
         <!-- end project -->
@@ -123,10 +124,10 @@
 
     <div class="container">
       <!-- about -->
-      <div class="select">
+      <div class="select" id="aboutus">
         <div class="row">
           <div class="col-12 col-sm-4">
-            <h1>About Us</h1>
+            <h1 class="title">About Us</h1>
           </div>
 
           <div class="col-12 col-sm-8">
@@ -140,7 +141,7 @@
               economic growth.
             </div>
 
-            <button type="button" class="btn btn-dark">LEARN MORE</button>
+            <button type="button" class="btn btn-purple">LEARN MORE</button>
           </div>
         </div>
       </div>
@@ -148,7 +149,7 @@
 
 
       <!-- team -->
-      <div class="select">
+      <div class="select" id="team">
         <div class="row align-items-center">
 
           <div class="col-12 col-sm-6">
@@ -156,7 +157,7 @@
           </div>
 
           <div class="col-12 col-sm-6">
-            <h1>Our people, our advantage</h1>
+            <h1 class="title">Our people, our advantage</h1>
             <div>
               Our team of international experts are why clients recommend us. We combine unparalleled expertise and
               thought leadership on trade and development finance with practical hands-on experience.
@@ -169,12 +170,12 @@
 
 
       <!-- service -->
-      <div class="select">
+      <div class="select" id="service">
         <div class="row align-items-center">
 
 
           <div class="col-12 col-sm-6">
-            <h1>Services</h1>
+            <h1 class="title">Services</h1>
 
             <div class="mb-3">
               We know what it takes to run successful public-policy based institutions. Our core competency is in
@@ -182,13 +183,13 @@
               product innovation, governance systems and risk management.
             </div>
 
-            <button type="button" class="btn btn-dark">OUR SERVICES</button>
+            <button type="button" class="btn btn-purple">OUR SERVICES</button>
 
           </div>
 
 
           <div class="col-12 col-sm-6">
-            <img class="img-fluid" src="../assets/image/service.png">
+            <img class="img-fluid" src="../assets/image/services.png">
           </div>
 
         </div>
@@ -197,7 +198,7 @@
 
 
       <!-- expertise -->
-      <div class="select">
+      <div class="select" id="expertise">
         <div class="row align-items-center">
 
           <div class="col-12 col-sm-6">
@@ -205,7 +206,7 @@
           </div>
 
           <div class="col-12 col-sm-6">
-            <h1>Expertise</h1>
+            <h1 class="title">Expertise</h1>
             <div class="mb-3">
               We have extensive experience across all areas of development finance, including trade, export and
               investment, development finance and climate finance. Our expert team brings a unique combination of deep
@@ -220,7 +221,7 @@
             </div>
 
             <div>
-              <button type="button" class="btn btn-dark">OUR EXPERTISE</button>
+              <button type="button" class="btn btn-purple">OUR EXPERTISE</button>
             </div>
           </div>
         </div>
@@ -230,7 +231,7 @@
 
 
     <!-- footer -->
-    <div class="footer" style="background: #7d7d7d">
+    <div class="footer">
 
       <div class="container select">
 
@@ -241,7 +242,7 @@
               We help organizations with their most critical challenges and opportunities. Contact us now to learn how
               we can work together.
             </div>
-            <button type="button" class="btn btn-dark">CONTACT</button>
+            <button type="button" class="btn btn-white">CONTACT</button>
           </div>
 
           <div class="col-12 col-sm-6">
@@ -250,7 +251,7 @@
               We're on a mission to change the world. Learn how you can join a team focused on providing top tier advice
               and innovative, but workable solutions to our clients.
             </div>
-            <button type="button" class="btn btn-dark">CAREERS</button>
+            <button type="button" class="btn btn-white">CAREERS</button>
           </div>
         </div>
       </div>
@@ -260,7 +261,7 @@
 
       <div class="container select">
         <div class="row mb-5">
-          <div class="col-12 col-sm-3"> LOGO</div>
+          <div class="col-12 col-sm-3"><img class="img-fluid logo" src="../assets/logo.svg"></div>
           <div class="col-12 col-sm-3">
             <div class="mb-3">
               <h5>
@@ -322,9 +323,9 @@
         </div>
 
 
-        <div>
+        <small>
           © 2019 Zed Financial Consulting LTD. Privacy Policy.
-        </div>
+        </small>
 
       </div>
     </div>
@@ -341,30 +342,3 @@
   }
 </script>
 
-<style>
-  .hero {
-    background-image: url("../assets/image/hero_bg.png");
-    background-position: center;
-    background-size: cover;
-    min-height: calc(100vh);
-  }
-
-
-  .project-1 {
-    background-image: url("../assets/image/project_1.png");
-    background-position: center;
-    background-size: cover;
-  }
-
-  .project-2 {
-    background-image: url("../assets/image/project_2.png");
-    background-position: center;
-    background-size: cover;
-  }
-
-  .project-card{
-    padding: 15px;
-    height: 350px;
-  }
-
-</style>
