@@ -7,6 +7,10 @@
     padding: 15px;
 }
 
+.navbar-light a{
+    color: white !important;
+}
+
 .nav-zed a {
     color: white;
     text-transform: uppercase;
@@ -20,7 +24,7 @@
     height: 35px;
 }
 
-.select {
+.section {
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -42,12 +46,14 @@
 
 
 .project-1 {
+    border-radius: 4px;
     background-image: url("../../assets/image/activity-bg-1.png");
     background-position: center;
     background-size: cover;
 }
 
 .project-2 {
+    border-radius: 4px;
     background-image: url("../../assets/image/activity-bg-2.png");
     background-position: center;
     background-size: cover;

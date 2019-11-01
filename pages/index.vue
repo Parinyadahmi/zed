@@ -4,7 +4,7 @@
 
 
     <div class="hero" id="home">
-      <nav class="navbar navbar-expand-lg navbar-transparent nav-zed">
+      <nav class="navbar navbar-expand-lg navbar-transparent navbar-light nav-zed">
 
         <div class="container">
 
@@ -15,6 +15,7 @@
 
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                  style="color: white"
                   aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -79,11 +80,16 @@
       <div class="container">
 
         <!-- project -->
-        <div class="select" id="project">
-          <h1 class="title">Explore our lasted projects</h1>
-          <div class="mb-5">But I must explain to you how all this mistaken idea
-            of denouncing pleasure and praising pain was born.
+        <div class="section" id="project">
+          <div class="row">
+            <div class="col-12 col-sm-6">
+              <h5 class="title">Explore our lasted projects</h5>
+              <div class="mb-5">But I must explain to you how all this mistaken idea
+                of denouncing pleasure and praising pain was born.
+              </div>
+            </div>
           </div>
+
 
           <div class="row">
             <div class="col-12 col-sm-6 mb-5">
@@ -124,7 +130,7 @@
 
     <div class="container">
       <!-- about -->
-      <div class="select" id="aboutus">
+      <div class="section" id="aboutus">
         <div class="row">
           <div class="col-12 col-sm-4">
             <h1 class="title">About Us</h1>
@@ -149,7 +155,7 @@
 
 
       <!-- team -->
-      <div class="select" id="team">
+      <div class="section" id="team">
         <div class="row align-items-center">
 
           <div class="col-12 col-sm-6">
@@ -157,11 +163,19 @@
           </div>
 
           <div class="col-12 col-sm-6">
-            <h1 class="title">Our people, our advantage</h1>
-            <div>
+            <h5 class="title">Our people, our advantage</h5>
+            <div class="mb-3">
               Our team of international experts are why clients recommend us. We combine unparalleled expertise and
               thought leadership on trade and development finance with practical hands-on experience.
             </div>
+
+            <div class="mb-3">
+              <small>
+                If you are in the market for a computer,<br> there are a number of factors to consider.
+              </small>
+            </div>
+
+            <button type="button" class="btn btn-purple">MEET THE TEAM</button>
           </div>
 
         </div>
@@ -170,17 +184,23 @@
 
 
       <!-- service -->
-      <div class="select" id="service">
+      <div class="section" id="service">
         <div class="row align-items-center">
 
 
           <div class="col-12 col-sm-6">
-            <h1 class="title">Services</h1>
+            <h4 class="title">Services</h4>
 
             <div class="mb-3">
               We know what it takes to run successful public-policy based institutions. Our core competency is in
               institutional development, including strategic planning, evaluation, policy formulation and programming,
               product innovation, governance systems and risk management.
+            </div>
+
+            <div class="mb-3">
+              <small>
+                If you are in the market for a computer,<br> there are a number of factors to consider.
+              </small>
             </div>
 
             <button type="button" class="btn btn-purple">OUR SERVICES</button>
@@ -198,7 +218,7 @@
 
 
       <!-- expertise -->
-      <div class="select" id="expertise">
+      <div class="section" id="expertise">
         <div class="row align-items-center">
 
           <div class="col-12 col-sm-6">
@@ -206,7 +226,7 @@
           </div>
 
           <div class="col-12 col-sm-6">
-            <h1 class="title">Expertise</h1>
+            <h4 class="title">Expertise</h4>
             <div class="mb-3">
               We have extensive experience across all areas of development finance, including trade, export and
               investment, development finance and climate finance. Our expert team brings a unique combination of deep
@@ -233,25 +253,35 @@
     <!-- footer -->
     <div class="footer">
 
-      <div class="container select">
+      <div class="container">
 
         <div class="row">
           <div class="col-12 col-sm-6">
-            <h1> Get in touch </h1>
-            <div class="mb-3">
-              We help organizations with their most critical challenges and opportunities. Contact us now to learn how
-              we can work together.
+
+            <div class="section">
+
+              <h1> Get in touch </h1>
+              <div class="mb-3">
+                We help organizations with their most critical challenges and opportunities. Contact us now to learn how
+                we can work together.
+              </div>
+              <button type="button" class="btn btn-white">CONTACT</button>
             </div>
-            <button type="button" class="btn btn-white">CONTACT</button>
+
           </div>
 
           <div class="col-12 col-sm-6">
-            <h1> Work with Us </h1>
-            <div class="mb-3">
-              We're on a mission to change the world. Learn how you can join a team focused on providing top tier advice
-              and innovative, but workable solutions to our clients.
+
+            <div class="section">
+              <h1> Work with Us </h1>
+              <div class="mb-3">
+                We're on a mission to change the world. Learn how you can join a team focused on providing top tier
+                advice
+                and innovative, but workable solutions to our clients.
+              </div>
+              <button type="button" class="btn btn-white">CAREERS</button>
             </div>
-            <button type="button" class="btn btn-white">CAREERS</button>
+
           </div>
         </div>
       </div>
@@ -259,74 +289,77 @@
 
       <hr>
 
-      <div class="container select">
-        <div class="row mb-5">
-          <div class="col-12 col-sm-3"><img class="img-fluid logo" src="../assets/logo.svg"></div>
-          <div class="col-12 col-sm-3">
-            <div class="mb-3">
-              <h5>
-                PHONE
-              </h5>
+      <div class="container ">
 
+        <div class="section">
+          <div class="row mb-5">
+            <div class="col-12 col-sm-3"><img class="img-fluid logo" src="../assets/logo.svg"></div>
+            <div class="col-12 col-sm-3">
+              <div class="mb-3">
+                <h5>
+                  PHONE
+                </h5>
+
+                <div>
+                  +1 123 345 2234
+                </div>
+              </div>
               <div>
-                +1 123 345 2234
+
+                <h5>
+                  EMAIL
+                </h5>
+
+                <div>
+                  info@zed.xyz
+                </div>
+
               </div>
             </div>
-            <div>
+            <div class="col-12 col-sm-3">
+              <div>
+                <h5>
+                  SOCIAL
+                </h5>
 
-              <h5>
-                EMAIL
-              </h5>
+                <div>
+                  Linkedin
+                </div>
+                <div>
+                  Facebook
+                </div>
+                <div>
+                  Twitter
+                </div>
+
+              </div>
+            </div>
+            <div class="col-12 col-sm-3">
 
               <div>
-                info@zed.xyz
+                <h5>
+                  MAILING ADDRESS
+                </h5>
+
+                <div>
+                  Zed Financial Consulting Ltd.
+                  World Exchange Plaza
+                  P.O. Box 811219
+                  Ottawa, Ontario. K1P 1B1
+                  Canada
+                </div>
+
               </div>
 
             </div>
           </div>
-          <div class="col-12 col-sm-3">
-            <div>
-              <h5>
-                SOCIAL
-              </h5>
 
-              <div>
-                Linkedin
-              </div>
-              <div>
-                Facebook
-              </div>
-              <div>
-                Twitter
-              </div>
 
-            </div>
-          </div>
-          <div class="col-12 col-sm-3">
+          <small>
+            © 2019 Zed Financial Consulting LTD. Privacy Policy.
+          </small>
 
-            <div>
-              <h5>
-                MAILING ADDRESS
-              </h5>
-
-              <div>
-                Zed Financial Consulting Ltd.
-                World Exchange Plaza
-                P.O. Box 811219
-                Ottawa, Ontario. K1P 1B1
-                Canada
-              </div>
-
-            </div>
-
-          </div>
         </div>
-
-
-        <small>
-          © 2019 Zed Financial Consulting LTD. Privacy Policy.
-        </small>
-
       </div>
     </div>
     <!-- end footer -->
