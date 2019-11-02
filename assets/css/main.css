@@ -20,8 +20,13 @@
     font-weight: 600;
 }
 
+.text-desc{
+    color: #8c919c;
+}
+
+
 .logo {
-    height: 35px;
+    height: 30px;
 }
 
 .section {
@@ -45,6 +50,14 @@
 }
 
 
+
+
+.project-card {
+    padding: 15px;
+    height: 500px;
+    color: white;
+}
+
 .project-1 {
     border-radius: 4px;
     background-image: url("../../assets/image/activity-bg-1.png");
@@ -59,11 +72,6 @@
     background-size: cover;
 }
 
-.project-card {
-    padding: 15px;
-    height: 350px;
-    color: white;
-}
 
 .footer {
     color: white;
@@ -74,6 +82,12 @@
     min-width: 180px;
 }
 
+
+
+
+
+
+
 .btn-purple {
     background-color: #6d22eb;
     border-color: #6d22eb;
@@ -82,9 +96,21 @@
     padding: 15px;
 }
 
+.btn-purple:hover {
+    background-color: white;
+    color: #6d22eb;
+    font-weight: 600;
+    padding: 15px;
+}
+
+
 .btn-white {
     background-color: white;
     color: #6d22eb;
     font-weight: 600;
     padding: 15px;
+}
+
+.btn-white:hover {
+    color: #6d22eb;
 }

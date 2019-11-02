@@ -57,16 +57,16 @@
 
       <div class="container">
         <div class="row align-items-center" style="min-height: 100vh">
-          <div class="col">
+          <div class="col-12 col-sm-6">
 
             <div class="mb-5">
               <h1>Better Institutions,</h1>
               <h1>Better Outcome.</h1>
               <div>
-                In a rapidly changing the world, we have a expertise to help our clients keep up.
+                In a rapidly changing the world, we have the <br>
+                expertise to help our clients keep up.
               </div>
             </div>
-
             <button type="button" class="btn btn-purple">SEE OUR SERVICE</button>
 
           </div>
@@ -170,7 +170,7 @@
             </div>
 
             <div class="mb-3">
-              <small>
+              <small class="text-desc">
                 If you are in the market for a computer,<br> there are a number of factors to consider.
               </small>
             </div>
@@ -198,7 +198,7 @@
             </div>
 
             <div class="mb-3">
-              <small>
+              <small class="text-desc">
                 If you are in the market for a computer,<br> there are a number of factors to consider.
               </small>
             </div>
@@ -235,7 +235,7 @@
             </div>
 
             <div class="mb-3">
-              <small>
+              <small class="text-desc">
                 If you are in the market for a computer,<br> there are a number of factors to consider.
               </small>
             </div>
@@ -355,7 +355,7 @@
           </div>
 
 
-          <small>
+          <small class="text-desc">
             © 2019 Zed Financial Consulting LTD. Privacy Policy.
           </small>
 
