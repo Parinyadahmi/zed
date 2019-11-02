@@ -188,7 +188,7 @@
         <div class="row align-items-center">
 
 
-          <div class="col-12 col-sm-6">
+          <div class="col-12 col-sm-6 order-2 order-sm-1">
             <h4 class="title">Services</h4>
 
             <div class="mb-3">
@@ -208,7 +208,7 @@
           </div>
 
 
-          <div class="col-12 col-sm-6">
+          <div class="col-12 col-sm-6 order-1 order-sm-2">
             <img class="img-fluid" src="../assets/image/services.png">
           </div>
 
