@@ -260,7 +260,7 @@
 
             <div class="section">
 
-              <h1> Get in touch </h1>
+              <h4 class="mb-3"> Get in touch </h4>
               <div class="mb-3">
                 We help organizations with their most critical challenges and opportunities. Contact us now to learn how
                 we can work together.
@@ -273,7 +273,7 @@
           <div class="col-12 col-sm-6">
 
             <div class="section">
-              <h1> Work with Us </h1>
+              <h4 class="mb-3"> Work with Us </h4>
               <div class="mb-3">
                 We're on a mission to change the world. Learn how you can join a team focused on providing top tier
                 advice
@@ -292,70 +292,73 @@
       <div class="container ">
 
         <div class="section">
-          <div class="row mb-5">
-            <div class="col-12 col-sm-3"><img class="img-fluid logo" src="../assets/logo.svg"></div>
-            <div class="col-12 col-sm-3">
+          <div class="row mb-3">
+
+            <div class="col-12 col-sm-3 mb-3">
+              <img class="img-fluid logo" src="../assets/logo.svg">
+            </div>
+
+
+            <div class="col-12 col-sm-3 mb-3">
               <div class="mb-3">
                 <h5>
                   PHONE
                 </h5>
 
-                <div>
+                <small>
                   +1 123 345 2234
-                </div>
+                </small>
               </div>
               <div>
 
                 <h5>
                   EMAIL
                 </h5>
-
-                <div>
+                <small>
                   info@zed.xyz
-                </div>
-
+                </small>
               </div>
             </div>
-            <div class="col-12 col-sm-3">
+
+
+            <div class="col-12 col-sm-3  mb-3">
               <div>
                 <h5>
                   SOCIAL
                 </h5>
 
-                <div>
+                <div class="small">
                   Linkedin
                 </div>
-                <div>
+                <div class="small">
                   Facebook
                 </div>
-                <div>
+                <div class="small">
                   Twitter
                 </div>
-
               </div>
             </div>
-            <div class="col-12 col-sm-3">
 
+
+            <div class="col-12 col-sm-3 mb-3">
               <div>
                 <h5>
                   MAILING ADDRESS
                 </h5>
 
-                <div>
+                <div class="small">
                   Zed Financial Consulting Ltd.
                   World Exchange Plaza
                   P.O. Box 811219
                   Ottawa, Ontario. K1P 1B1
                   Canada
                 </div>
-
               </div>
-
             </div>
           </div>
 
 
-          <small class="text-desc">
+          <small>
             © 2019 Zed Financial Consulting LTD. Privacy Policy.
           </small>
 
@@ -369,7 +372,6 @@
 </template>
 
 <script>
-
   export default {
     components: {}
   }

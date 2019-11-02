@@ -58,7 +58,7 @@ module.exports = {
   ** Build configuration
   */
   router: {
-    //base: process.env.NODE_ENV === 'dev' ? '/' : '/zed/',
+    base: process.env.NODE_ENV === 'dev' ? '/' : '/zed/',
   },
   build: {
     /*

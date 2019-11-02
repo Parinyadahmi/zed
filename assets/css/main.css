@@ -1,6 +1,3 @@
-.hero {
-    color: white;
-}
 
 
 .nav-zed {
@@ -9,24 +6,25 @@
 
 .navbar-light a{
     color: white !important;
-}
-
-.nav-zed a {
-    color: white;
+    font-size: 1rem;
+    letter-spacing: 3px;
     text-transform: uppercase;
-    min-width: 80px;
+    min-width: 120px;
     text-align: center;
-    font-size: 18px;
     font-weight: 600;
 }
 
-.text-desc{
-    color: #8c919c;
+.hero {
+    color: white;
 }
-
 
 .logo {
     height: 30px;
+}
+
+
+.text-desc{
+    color: #8c919c;
 }
 
 .section {
@@ -48,9 +46,6 @@
     background-size: cover;
     min-height: calc(100vh);
 }
-
-
-
 
 .project-card {
     padding: 15px;
@@ -81,12 +76,6 @@
 .btn {
     min-width: 180px;
 }
-
-
-
-
-
-
 
 .btn-purple {
     background-color: #6d22eb;
