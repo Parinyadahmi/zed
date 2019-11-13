@@ -96,7 +96,7 @@
               <div class=" project-1">
                 <div class="row align-items-end project-card">
                   <div class="col">
-                    <small>A Ministry of Finance * Latin America & the Caribbean</small>
+                    <small>A Ministry of Finance • Latin America & the Caribbean</small>
                     <h3>Evaluation of National Customs Department Modernization Project</h3>
                   </div>
                 </div>
@@ -109,7 +109,7 @@
               <div class=" project-2">
                 <div class=" row align-items-end project-card">
                   <div class="col">
-                    <small>National Housing Organization * Latin America & the Caribbean</small>
+                    <small>National Housing Organization • Latin America & the Caribbean</small>
                     <h3>Institutional Strengthening of a National Housing Organization</h3>
                   </div>
                 </div>
