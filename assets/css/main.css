@@ -1,10 +1,10 @@
 @font-face {
-    font-family: GothamRoundedMallannaSukumwit;
+    font-family: SuisseIntl;
     src: url(../fonts/SuisseIntl-Light.otf) format("opentype")
 }
 
 body {
-    font-family: GothamRoundedMallannaSukumwit, serif !important;
+    font-family: SuisseIntl, serif !important;
     color: #2f3a5b;
 }
 
